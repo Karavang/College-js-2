@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: white;
+}
+
+a:active,
+a:focus {
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+input:active,
+textarea:active {
+  outline: none;
+}
+
+:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea {
+  resize: horizontal;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button {
+  margin-right: 20px;
+  position: relative;
+  border: 1px solid currentColor;
+  border-radius: 12px;
+  padding: 16px;
+  transition-property: border-color;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.button:hover, .button:focus-visible {
+  border-color: transparent;
+}
+.button:hover::before, .button:focus-visible::before {
+  opacity: 1;
+}
+.button:active::after {
+  opacity: 1;
+}
+
+.button::before,
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.button::before {
+  box-shadow: 0 0 2px #fff, 0 -2px 6px #f16427, 2px 0 6px #36ff00, -2px 0 6px #e22d91, 0 2px 6px #3f2aff;
+  transition-duration: 0.2s;
+}
+
+.button::after {
+  box-shadow: 0 0 8px 4px #fff, 0 -4px 12px 4px #f16427, 0 4px 12px 4px #3f2aff, -4px 0 12px 4px #e22d91, 4px 0 12px 4px #aeff26;
+  transition-duration: 0.4s;
+}
+
+.pad-modal {
+  padding: 15px 20px;
+}
+
+.flexator {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  top: 30%;
+}
+
+.out-1 {
+  font-size: 20px;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

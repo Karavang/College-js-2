@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+
+    <script src="./js/buttons.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="options">
+      <button
+        type="button"
+        class="btn button"
+        data-toggle="modal"
+        data-target="#myModal1"
+      >
+        Task1
+      </button>
+
+      <!-- The Modal -->
+     
+        <div class="modal" id="myModal1">
+            <div class="modal-dialog">
+              <div class="modal-content pad-modal">
+                <form>
+                  <div class="form-group">
+                    
+                    <input
+                      type="number"
+                      class="form-control inp-1"
+                      id="usr"
+                      name="username"
+                    />
+                  </div>
+                  <p class="out-1" id="out-1">Aboba</p>
+                  <ul class="flexator">
+                    <li>
+                      <button type="submit" id="sub-1" class="btn btn-primary">Submit</button>
+                    </li>
+                    <li>
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+      <button
+        type="button"
+        class="btn button"
+        data-toggle="modal"
+        data-target="#myModal2"
+      >
+        Task 2
+      </button>
+
+      <!-- The Modal -->
+      <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+          <div class="modal-content pad-modal">
+            <form>
+              <div class="form-group">
+                
+                <input
+                  type="text"
+                  class="form-control inp-2"
+                  id="usr"
+                  name="username"
+                />
+              </div>
+              <p class="out-1" id="out-2"></p>
+              <ul class="flexator">
+                <li>
+                  <button type="submit" id="sub-2" class="btn btn-primary">Submit</button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="btn button"
+        data-toggle="modal"
+        data-target="#myModal3"
+      >
+        Task 3
+      </button>
+      <div class="modal" id="myModal3">
+        <div class="modal-dialog">
+          <div class="modal-content pad-modal">
+            <form>
+                <div class="form-group">
+                  <label for="usr">Name:</label>
+                  <input
+                    type="text"
+                    class="form-control inp-31"
+                    id="usr"
+                    name="username"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input
+                    type="password"
+                    class="form-control inp-32"
+                    id="pwd"
+                    name="password"
+                  />
+                  <p class="out-1" id="out-3"></p>
+                </div>
+                <ul class="flexator">
+                  <li>
+                    <button type="submit" id="sub-3" class="btn btn-primary">Submit</button>
+                  </li>
+                  <li>
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      
+
+      <button
+        type="button"
+        class="btn button"
+        data-toggle="modal"
+        data-target="#myModal4"
+      >
+        Task 4
+      </button>
+
+      <!-- The Modal -->
+      <div class="modal" id="myModal4">
+        <div class="modal-dialog">
+          <div class="modal-content pad-modal">
+           
+
+            <!-- Modal body -->
+            <form>
+                <div class="form-group">
+                    <ul class="flexator" style="gap:20px ;">
+                        <li>
+                            
+                  <input
+                    type="text"
+                    class="form-control inp-41"
+                    id="usr"
+                    name="username"
+                  />
+                        </li>
+                        <li>
+                            
+                  <input
+                    type="text"
+                    class="form-control inp-42"
+                    id="usr"
+                    name="username"
+                  />
+                        </li>
+                        <li>
+                            
+                  <input
+                    type="text"
+                    class="form-control inp-43"
+                    id="usr"
+                    name="username"
+                  />
+                        </li>
+                    </ul>
+                 
+                </div>
+                <div class="form-group">
+                 
+                  <p class="out-1" id="out-4">Тут буде число</p>
+                </div>
+                <ul class="flexator">
+                  <li>
+                    <button type="submit" id="sub-4" class="btn btn-primary">Submit</button>
+                  </li>
+                  <li>
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </li>
+                </ul>
+              </form>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
